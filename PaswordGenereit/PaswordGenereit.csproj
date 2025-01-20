@@ -95,5 +95,11 @@
   <ItemGroup>
     <Folder Include="Styles\" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resurses\Images\question.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resurses\Images\favicon.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

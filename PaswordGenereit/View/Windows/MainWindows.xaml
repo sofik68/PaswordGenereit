@@ -67,6 +67,11 @@
                         <RowDefinition Height="10"/>
                         <RowDefinition Height="1*"/>
                     </Grid.RowDefinitions>
+                    <Image Source="/Resurses/Images/question.png" />
+
+                    <TextBlock Grid.Row="2" Text="Надежный"/>
+                    <Button Grid.Row="4" Content="генерация"/>
+
                 </Grid>
                 
             </Grid>
