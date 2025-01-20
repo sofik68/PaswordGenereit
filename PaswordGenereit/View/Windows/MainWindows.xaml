@@ -39,7 +39,7 @@
                     </Grid.RowDefinitions>
                    
                 </Grid>
-
+               <!--#region -->
                 <Grid ShowGridLines="True" Grid.Column="2">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="1*"/>
@@ -53,5 +53,10 @@
             </Grid>
         </GroupBox>
         <!--#endregion--> 
+           <!-- #region Список паролей-->
+           <ListBox Grid.Row="2">
+            
+           </ListBox>
+           <!--#endregion-->
     </Grid>
 </Window>
